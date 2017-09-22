@@ -4,23 +4,47 @@
   font-size: 22px;
   color:seashell;
   background-color: black;
-  opacty:0.9;
+  opacity:0.9;
   text-align: center;
-
 }
-/* header*/
+/* navigation*/
 li{
   list-style-type: none;
-  padding-bottom: 5px;
+  margin-left: 30px;
 }
-
-
+.header{
+  display:flex;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  height: 69px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+}
+ul{
+  display:flex;
+}
+.header img{
+  height: 50px;
+}
 
 /*body - mission */
 .mission{
-  background-image: url(../images/img-mission-background.jpg);
-  background-repeat: no-repeat;
-  background-size: 1200px 700px; 
+background-image:url("../images/img-mission-background.jpg");
+background-repeat: no-repeat;
+background-position: center;
+display: flex;
+align-items: center;
+width:1200px;
+height:700px;
+justify-content: center;
+margin:0 auto;
+}
+.missiontext{
+  width: inherit;
+}
+.mission h2{
+  font-size: 33px;
 }
 
 /*body - tea */
@@ -28,9 +52,93 @@ li{
   height: 200px;
   width: 300px;
 }
+.tea h4{
+  margin-top: 10px;
+}
+.tea h2{
+  width: 1000px;
+  margin: 10px auto;
+  font-size: 33px;
+}
+.teatop{
+  display:flex;
+  justify-content: center;
+}
+.teatop1,
+.teatop2,
+.teatop3{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.teabottom{
+  display: flex;
+  justify-content: center;
+}
+.teabottom1,
+.teabottom2{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 /*body - location */
 .location{
   background-image: url(../images/img-locations-background.jpg);
   background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+}
+.locationbox{
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+  background-color: transparent;
+}
+.locationtext{
+  margin-bottom: 15px;
+  background-color: transparent;
+}
+.location1,
+.location2,
+.location3{
+  width: 300px;
+  opacity: 1;
+}
+.location1 h3,
+.location2 h3,
+.location3 h3{
+  font-size: 25.74px;
+}
+
+
+
+.locationtext h2{
+  background-color: transparent;
+  margin:0;
+  padding:0;
+  font-size: 33px;
+}
+
+/*body - contact */
+.contact{
+  height:200px;
+}
+.contact h2{
+  font-size: 33px;
+}
+.contact h5{
+  font-size: 18.26px;
+}
+/*footer*/
+.footer h5{
+  text-align: left;
+  font-size: 18.26px;
+}
+.footer{
+  margin-left: 20px;
 }
