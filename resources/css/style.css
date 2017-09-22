@@ -1,0 +1,36 @@
+/*universal*/
+*{
+  font-family: helvetica;
+  font-size: 22px;
+  color:seashell;
+  background-color: black;
+  opacty:0.9;
+  text-align: center;
+
+}
+/* header*/
+li{
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
+
+
+/*body - mission */
+.mission{
+  background-image: url(../images/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 1200px 700px; 
+}
+
+/*body - tea */
+.tea img{
+  height: 200px;
+  width: 300px;
+}
+
+/*body - location */
+.location{
+  background-image: url(../images/img-locations-background.jpg);
+  background-repeat: no-repeat;
+}
