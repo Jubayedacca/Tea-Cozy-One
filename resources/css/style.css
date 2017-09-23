@@ -10,24 +10,33 @@
 /* navigation*/
 li{
   list-style-type: none;
-  margin-left: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-right: 0px;
 }
 .header{
   display:flex;
   border-bottom: 1px solid seashell;
   justify-content: space-between;
   height: 69px;
-  padding-left: 10px;
-  padding-right: 10px;
+  top: 0;
+  right: 0;
   align-items: center;
+  position: fixed;
+  z-index: 5;
+  width: 100%
 }
 ul{
   display:flex;
 }
 .header img{
   height: 50px;
+  margin-left: 10px;
 }
-
+/*body-contant*/
+.content{
+  position: relative;
+}
 /*body - mission */
 .mission{
 background-image:url("../images/img-mission-background.jpg");
@@ -39,6 +48,8 @@ width:1200px;
 height:700px;
 justify-content: center;
 margin:0 auto;
+
+top:69px;
 }
 .missiontext{
   width: inherit;
@@ -53,11 +64,13 @@ margin:0 auto;
   width: 300px;
 }
 .tea h4{
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .tea h2{
   width: 1000px;
-  margin: 10px auto;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
   font-size: 33px;
 }
 .teatop{
